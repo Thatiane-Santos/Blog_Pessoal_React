@@ -1,4 +1,6 @@
 import axios from "axios";
+import.meta.env.VITE_API_URL
+
 
 const api = axios.create({
     baseURL: 'https://blogpessoal-jg3w.onrender.com'
